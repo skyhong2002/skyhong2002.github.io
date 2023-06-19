@@ -1,0 +1,95 @@
+baseURL = 'http://skyhong2002.github.io/'
+languageCode = 'zh-tw'
+title = 'Sky Hong'
+theme = 'PaperMod'
+buildDrafts = false
+
+[[menu.main]]
+
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 10
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/archives/"
+weight = 30
+
+[params.profileMode]
+enabled = true
+title = "Sky Hong"
+subtitle = "Learning, Sharing, and Growing"
+imageUrl = "img/skychopath.png"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "Skychopath"
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts/"
+
+[[params.profileMode.buttons]]
+name = "Categories"
+url = "/categories/"
+
+[params] 
+ShowBreadCrumbs = true    
+# 展示文章所在目錄
+ShowReadingTime = true    
+# 展示閱讀時間
+ShowShareButtons = true    
+# 展示分享按鈕
+ShowPostNavLinks = true    
+# 本地其他文章連結
+
+[params.cover]
+linkFullImages = true    
+# 點擊圖片後以全螢幕檢視
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/skyhong2002"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/skyhong2002/"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/skyhong2002"
+
+[[params.socialIcons]]
+name = "facebook"
+url = "https://www.facebook.com/skyhong2002"
+
+[[params.socialIcons]]
+name = "instagram"
+url = "https://www.instagram.com/skychopath/"
+
+[[params.socialIcons]]
+name = "youtube"
+url = "https://www.youtube.com/@skyhong2002"
+
+[[params.socialIcons]]
+name = "rss"
+url = "/index.xml"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:me@skyhong.tw"
+
+[[params.socialIcons]]
+name = "telegram"
+url = "https://t.me/skyhong2002"
+
+[[params.socialIcons]]
+name = "discord"
+url = "https://discord.gg/CkpAbwzSBA"
